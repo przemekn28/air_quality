@@ -12,7 +12,7 @@ class _MyCitiesState extends State<MyCities> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: pagesAppBar(),
+      appBar: pagesAppBar(title: "AirQuality"),
       body: Center(
         child: Text("Hello, my cities"),
       ),
